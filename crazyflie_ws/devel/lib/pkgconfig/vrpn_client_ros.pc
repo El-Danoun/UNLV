@@ -1,0 +1,8 @@
+prefix=/home/venkim/Loris/crazyflie_ws/devel
+
+Name: vrpn_client_ros
+Description: Description of vrpn_client_ros
+Version: 0.2.2
+Cflags: -I/home/venkim/Loris/crazyflie_ws/src/vrpn_client_ros/include -I/home/venkim/Loris/crazyflie_ws/devel/include/vrpn -I/opt/ros/kinetic/include
+Libs: -L/home/venkim/Loris/crazyflie_ws/devel/lib -lvrpn_client_ros /home/venkim/Loris/crazyflie_ws/devel/lib/libvrpn.a /home/venkim/Loris/crazyflie_ws/devel/lib/libquat.a -lm -l-lpthread
+Requires: geometry_msgs tf2_ros

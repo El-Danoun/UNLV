@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/forcedevice_test_client.dir/forcedevice_test_client.cpp.o  -o forcedevice_test_client -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 
