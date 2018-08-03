@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/vrpn_streamPrint.dir/vrpn_streamPrint.cpp.o  -o vrpn_streamPrint -rdynamic ../../libvrpn.a ../../quat/libquat.a -lm -lpthread 

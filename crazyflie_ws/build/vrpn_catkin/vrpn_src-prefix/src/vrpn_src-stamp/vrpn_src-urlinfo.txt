@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://github.com/vrpn/vrpn/archive/version_07.34.zip'
-tag=''

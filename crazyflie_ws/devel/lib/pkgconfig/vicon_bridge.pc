@@ -1,8 +1,0 @@
-prefix=/home/venkim/Loris/crazyflie_ws/devel
-
-Name: vicon_bridge
-Description: Description of vicon_bridge
-Version: 1.0.1
-Cflags: -I/home/venkim/Loris/crazyflie_ws/devel/include
-Libs: -L/home/venkim/Loris/crazyflie_ws/devel/lib 
-Requires: dynamic_reconfigure geometry_msgs message_runtime roscpp

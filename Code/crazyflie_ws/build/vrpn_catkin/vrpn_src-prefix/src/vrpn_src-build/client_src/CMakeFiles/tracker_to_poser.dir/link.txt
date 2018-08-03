@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/tracker_to_poser.dir/tracker_to_poser.cpp.o  -o tracker_to_poser -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

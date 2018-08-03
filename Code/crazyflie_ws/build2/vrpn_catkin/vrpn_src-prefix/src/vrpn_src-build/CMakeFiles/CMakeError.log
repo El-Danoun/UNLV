@@ -1,0 +1,64 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7ed8/fast"
+make[3]: Entering directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d7ed8.dir/build.make CMakeFiles/cmTC_d7ed8.dir/build
+make[4]: Entering directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7ed8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_d7ed8.dir/CheckSymbolExists.c.o   -c /home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d7ed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7ed8.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC     CMakeFiles/cmTC_d7ed8.dir/CheckSymbolExists.c.o  -o cmTC_d7ed8 -rdynamic 
+CMakeFiles/cmTC_d7ed8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d7ed8.dir/build.make:97: recipe for target 'cmTC_d7ed8' failed
+make[4]: *** [cmTC_d7ed8] Error 1
+make[4]: Leaving directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d7ed8/fast' failed
+make[3]: *** [cmTC_d7ed8/fast] Error 2
+make[3]: Leaving directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+
+File /home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15af2/fast"
+make[3]: Entering directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_15af2.dir/build.make CMakeFiles/cmTC_15af2.dir/build
+make[4]: Entering directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15af2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_15af2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15af2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15af2.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_15af2.dir/CheckFunctionExists.c.o  -o cmTC_15af2 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_15af2.dir/build.make:97: recipe for target 'cmTC_15af2' failed
+make[4]: *** [cmTC_15af2] Error 1
+make[4]: Leaving directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15af2/fast' failed
+make[3]: *** [cmTC_15af2/fast] Error 2
+make[3]: Leaving directory '/home/venkim/Loris/crazyflie_ws/build/vrpn_catkin/vrpn_src-prefix/src/vrpn_src-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the Perl module Parse::RecDescent exists failed with the following error output:
+Can't locate Parse/RecDescent.pm in @INC (you may need to install the Parse::RecDescent module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at -e line 1.
+BEGIN failed--compilation aborted at -e line 1.
+
+

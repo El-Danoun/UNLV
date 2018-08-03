@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/text.dir/text.C.o  -o text -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

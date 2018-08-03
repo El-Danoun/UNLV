@@ -1,1 +1,0 @@
-/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/ff_client.dir/ff_client.C.o  -o ff_client -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

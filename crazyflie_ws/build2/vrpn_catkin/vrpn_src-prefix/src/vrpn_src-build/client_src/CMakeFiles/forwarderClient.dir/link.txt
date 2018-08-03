@@ -1,1 +1,0 @@
-/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/forwarderClient.dir/forwarderClient.C.o  -o forwarderClient -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

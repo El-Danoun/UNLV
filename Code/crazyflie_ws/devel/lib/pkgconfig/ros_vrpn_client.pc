@@ -1,0 +1,8 @@
+prefix=/home/venkim/Loris/crazyflie_ws/devel
+
+Name: ros_vrpn_client
+Description: Description of ros_vrpn_client
+Version: 0.0.0
+Cflags: -I/home/venkim/Loris/crazyflie_ws/devel/include -I/home/venkim/Loris/crazyflie_ws/src/ros_vrpn_client/include
+Libs: -L/home/venkim/Loris/crazyflie_ws/devel/lib -lvicon_estimator
+Requires: roscpp tf geometry_msgs nav_msgs vrpn_catkin cmake_modules message_runtime eigen_conversions glog_catkin

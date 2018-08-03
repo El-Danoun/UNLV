@@ -1,1 +1,0 @@
-/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/test_Zaber.dir/test_Zaber.C.o  -o test_Zaber -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

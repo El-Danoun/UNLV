@@ -1,1 +1,0 @@
-/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/checklogfile.dir/checklogfile.C.o  -o checklogfile -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/testimager_client.dir/testimager_client.C.o  -o testimager_client -rdynamic ../libvrpn.a -lglut -lGLU -lGL ../quat/libquat.a -lm -lpthread 

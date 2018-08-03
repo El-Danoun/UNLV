@@ -1,1 +1,0 @@
-/usr/bin/c++    -fPIC -O2 -g -DNDEBUG   CMakeFiles/vrpn_LamportClock.dir/vrpn_LamportClock.t.C.o  -o vrpn_LamportClock -rdynamic ../libvrpn.a ../quat/libquat.a -lm -lpthread 
